@@ -1,5 +1,5 @@
 ---
-  - name: script
-    ansible.builtin.shell: cat < /home/osman/mrb.txt
-    args:
-      executable: /bin/bash
+  - name: cat
+    shell: |
+      cat < /home/osman/mrb.txt
+    register: file_content
