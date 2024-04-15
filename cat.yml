@@ -1,5 +1,5 @@
 - hosts: web
-- name: "Read a file content"
-  shell: |
+  - name: "Read a file content"
+    shell: |
     cat /etc/resolv.conf
-  register: file_content
+    register: file_content
