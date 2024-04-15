@@ -3,3 +3,5 @@
   - name: "Read a file content"
     shell: |
       cat < /home/osman/mrb.txt
+      pwd
+      id
