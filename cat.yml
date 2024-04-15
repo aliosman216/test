@@ -1,8 +1,5 @@
 ---
   - name: script
-      shell:
-        cmd: |
-          #!/bin/bash
-          SCRIPT=$(cat /home/osman/mrb.txt
-          )
-          ${SCRIPT}
+    ansible.builtin.shell: cat < /home/osman/mrb.txt
+    args:
+      executable: /bin/bash
