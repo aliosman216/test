@@ -1,4 +1,5 @@
 - hosts: web
+  tasks:
   - name: "Read a file content"
     shell: |
     cat /etc/resolv.conf
