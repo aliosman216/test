@@ -1,0 +1,8 @@
+---
+  - name: script
+      shell:
+        cmd: |
+          #!/bin/bash
+          SCRIPT=$(cat /home/osman/mrb.txt
+          )
+          ${SCRIPT}
