@@ -1,0 +1,4 @@
+- hosts: web
+  tasks:
+  - name : Install net-tool package
+    yum: name=net-tools state=present update_cache=true
