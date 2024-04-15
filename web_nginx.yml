@@ -1,4 +1,4 @@
 - hosts: web
   tasks:
   - name : Install elinks package
-    yum: name=net-tools state=present update_cache=true
+    yum: name=elinks state=present update_cache=true
